@@ -1,5 +1,5 @@
-import './App.css'
-import myImg from './src/assets/my.jpg'
+import './App.css';
+import myImg from './assets/my.jpg';
 
 function App() {
   const personalInfo = {
@@ -8,9 +8,9 @@ function App() {
     email: 'ahmed7gendy@gmail.com',
     phone: '+201156265436',
     address: 'Modern Academy Street, Mokattam, Cairo, Egypt',
-  }
+  };
 
-  const skills = ['JavaScript', 'React', 'HTML', 'CSS']
+  const skills = ['JavaScript', 'React', 'HTML', 'CSS'];
 
   return (
     <div className="container">
@@ -33,7 +33,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
