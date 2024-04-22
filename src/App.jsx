@@ -1,17 +1,17 @@
 import './App.css';
 import myImg from './assets/my.jpg';
 
-function App() {
-  const personalInfo = {
-    name: 'Ahmed Tarek Gendy',
-    title: 'Web Developer',
-    email: 'ahmed7gendy@gmail.com',
-    phone: '+201156265436',
-    address: 'Modern Academy Street, Mokattam, Cairo, Egypt',
-  };
+const personalInfo = {
+  name: 'Ahmed Tarek Gendy',
+  title: 'Web Developer',
+  email: 'ahmed7gendy@gmail.com',
+  phone: '+201156265436',
+  address: 'Modern Academy Street, Mokattam, Cairo, Egypt',
+};
 
-  const skills = ['JavaScript', 'React', 'HTML', 'CSS'];
+const skills = ['JavaScript', 'React', 'HTML', 'CSS'];
 
+const App = () => {
   return (
     <div className="container">
       <div className="card">
@@ -34,6 +34,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
